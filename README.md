@@ -1,3 +1,16 @@
+# <p align="center">TextUtils</p>
+
+## Use of TextUtils
+
+<ul>
+  <li> Convert text to <b>UpperCase</b> </li>
+   <li> Convert text to <b>LowerCase</b> </li>
+    <li> Count words you written </li>
+     <li>Count charactes in text</li>
+     <li>Calculate time required to read text</li>
+</ul>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
