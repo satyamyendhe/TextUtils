@@ -44,11 +44,11 @@ export default function TextForm(props) {
                 <button className='btn btn-primary mx-2' onClick={handelLowerCase}>lowercase</button>
             </div>
             <div className="container">
-                <h1>Your text Summary</h1>
-                <p> words : {words} <br /> characters : {text.length}</p>
+                <h2>Your text Summary</h2>
+                <p> <b> words :</b>  {words} <br /> <b>characters : </b>{text.length}</p>
                 <p>{0.008*words} minutes read</p>
 
-                <h2>Preview</h2>
+                <h2 className>Preview</h2>
                 <p>{text}</p>
             </div>
 
