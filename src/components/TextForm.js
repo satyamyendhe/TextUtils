@@ -27,7 +27,7 @@ export default function TextForm(props) {
     }
 
     // count the words 
-    let words = text.split(" ").length-1
+    let words = text.split(" ").length
 
 
 
