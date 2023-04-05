@@ -29,6 +29,12 @@ export default function TextForm(props) {
     // count the words 
     let words = text.split(" ").length
 
+    // clear Text area
+    const handelClearText = ()=>{
+        console.log("textarea was cleared");
+        newText("");
+    }
+
 
 
     return (
@@ -42,13 +48,14 @@ export default function TextForm(props) {
                 </div>
                 <button className='btn btn-primary mx-2' onClick={handelUpperCase}>UPPERCASE</button>
                 <button className='btn btn-primary mx-2' onClick={handelLowerCase}>lowercase</button>
+                <button className='btn btn-primary mx-2' onClick={handelClearText}>Clear</button>
             </div>
             <div className="container">
                 <h2>Your text Summary</h2>
                 <p> <b> words :</b>  {words} <br /> <b>characters : </b>{text.length}</p>
                 <p>{0.008*words} minutes read</p>
 
-                <h2 className>Preview</h2>
+                <h2>Preview</h2>
                 <p>{text}</p>
             </div>
 
